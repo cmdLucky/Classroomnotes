@@ -21,6 +21,23 @@ export interface Event {
 // Default events data
 const defaultEvents: Event[] = [
   {
+    id: "kat-o-sdg-study-tour",
+    title: "吉澳鄉村SDG遊學團",
+    titleEn: "Kat O Rural SDG Study Tour",
+    series: "MeGoOut鄉村深度遊",
+    date: "2026年5月1日（星期五）及 5月9日（星期六）",
+    dateEn: "May 1 (Friday) & May 9 (Saturday), 2026",
+    time: "9:30 - 15:00",
+    location: "吉澳島 Kat O Island",
+    locationEn: "Departure from Sha Tau Kok",
+    image: "/images/sdg-study-tour-poster.png",
+    category: "遊學團 Study Tour",
+    price: "請聯繫項目經理Heidi查詢",
+    priceEn: "Please contact Project Manager Heidi for details",
+    highlights: ["吉澳鄉郊導賞", "海岸淨灘行動", "客家環保袋設計", "生態文化之旅"],
+    status: "upcoming",
+  },
+  {
     id: "kat-o-tin-hau-festival",
     title: "MeGoOut鄉村美食嘉年華暨吉澳天后誕慶典",
     titleEn: "MeGoOut Rural Food Carnival & Kat O Tin Hau Festival Celebration",

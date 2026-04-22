@@ -2,7 +2,7 @@
 import Image from "next/image"
 import { useLanguage } from "@/contexts/language-context"
 
-export default function PartnerFooter() {
+function PartnerFooter() {
   const { t } = useLanguage()
 
   return (
@@ -162,3 +162,6 @@ export default function PartnerFooter() {
     </footer>
   )
 }
+
+export { PartnerFooter }
+export default PartnerFooter
