@@ -21,6 +21,23 @@ export interface Event {
 // Default events data
 const defaultEvents: Event[] = [
   {
+    id: "kat-o-tin-hau-festival",
+    title: "MeGoOut鄉村美食嘉年華暨吉澳天后誕慶典",
+    titleEn: "MeGoOut Rural Food Carnival & Kat O Tin Hau Festival Celebration",
+    series: "MeGoOut文化復興項目",
+    date: "2026年5月9日（星期六）",
+    dateEn: "May 9, 2026 (Saturday)",
+    time: "10:00 - 17:00",
+    location: "吉澳島 Kat O Island",
+    locationEn: "Kat O Island, Yan Chau Tong",
+    image: "/images/tin-hau-festival-poster.png",
+    category: "節慶活動 Festival",
+    price: "免費入場 / Free Admission",
+    priceEn: "Free Admission (Free Ferry Ticket Registration)",
+    highlights: ["天后巡遊及抽炮儀式", "創意市集及Live Music", "客家廚王爭霸賽", "主題導賞團", "免費船票"],
+    status: "upcoming",
+  },
+  {
     id: "kat-o-treasure-hunt-feb8",
     title: "尋吉覓澳之「吉星高照」",
     titleEn: "Kat O Treasure Hunt: Lucky Stars Shining",
