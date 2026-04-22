@@ -113,7 +113,7 @@ function PartnerFooter() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-secondary-foreground/90 text-xl font-semibold">
-                {t("© 2025 鄉郊保育辦公室", "© 2025 Countryside Conservation Office")}
+                {t("© 2026 香港中文大學酒店及旅遊管理學院", "© 2026 CUHK School of Hotel and Tourism Management")}
               </p>
               <p className="text-secondary-foreground/70 text-base mt-2">
                 {t(
